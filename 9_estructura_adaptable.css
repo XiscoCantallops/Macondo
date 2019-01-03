@@ -1,0 +1,158 @@
+*{
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    }
+
+body{
+    margin: 0; 
+    font-family: 'Noto Sans', sans-serif; 
+    }
+
+figure{margin: 0; padding: 0;}
+
+nav{
+    width: 100vw;  
+    height: 17vh;
+    background-color: #333;
+    overflow: auto;
+
+    }
+
+nav figure img{
+    float: left; 
+    width: 15%; 
+    margin: 0; 
+    padding: 2rem;
+    }
+
+
+nav ul {
+    float: left;
+    margin-top: 6vh;
+    margin-left: 2.5vw;
+    }
+
+
+nav ul li{ 
+    display: inline;
+    font-size: 1.4rem;
+    }
+
+nav ul li a:link    {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 20px;
+    
+    }
+
+nav ul li a:hover    {
+    padding: 20px;
+    background-color: #00B39C;
+    
+    }
+
+h1  { 
+    color:#00B39C; 
+    font-family: 'Lobster', cursive; 
+    font-weight: normal; 
+    font-size: 3rem;     
+    margin-top: 10vh; 
+    }
+
+h1 span{
+    font-size: 4.5rem; color: #333; 
+}
+
+p{
+    font-size: 1.5rem;
+}
+aside ul{
+    margin-top: 5vh; 
+    font-size: 1.1rem;
+    padding: 0;
+}
+
+aside img {
+    width: 100%;  
+}
+aside ul li span{
+    font-weight: bold;
+}
+
+#datos, #descripcion, #compra {
+    float: left;      
+  }
+
+ul{
+    list-style: none; 
+    margin: 0; 
+    
+}
+  
+
+#datos {
+   width: 20vw;
+   padding: 2vw;
+   }
+
+aside ul {
+    border-bottom: 1px dotted grey; 
+    border-top: 1px dotted grey;
+    }
+
+aside ul li{
+    margin-bottom: 5px;  
+    text-transform: uppercase; 
+    color: #00B39C;
+    }
+
+aside ul li.precio{
+    font-size: 3rem; 
+    font-family: 'Lobster', cursive; 
+    color: black;
+}
+
+#descripcion {
+   width: 59vw;
+   padding: 0 4vw 2vw 2vw;    
+  }
+
+#compra {
+   width: 19vw;
+    height: 50vh;
+   
+   }  
+#compra figure img{
+    width: 100%;
+}
+
+#compra .botoncompra{}
+
+#compra a:link {
+    background-color: #00B39C; 
+    display: block;
+    padding: 20px;
+    text-align: center;
+    background-image: url(carrito.png);
+    background-size: 12%;
+    background-repeat: no-repeat;
+    background-position: 18% center;
+    color: white; 
+    font-family: 'Lobster', cursive; 
+    font-size: 2.5rem; 
+    text-decoration: none;
+    }
+
+#compra a:hover {
+    background-color: #333; 
+    
+    }
+
+
+
